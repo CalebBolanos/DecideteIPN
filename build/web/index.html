@@ -1,0 +1,265 @@
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Decidete.ipn</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="imagenes/icon.ico" />
+        <script>
+
+        </script>
+        <style>
+            @keyframes slidein {
+                from { opacity: 0; background-color: whitesmoke;}
+                to   { opacity: 1; background-color: white;}
+            }
+            @media screen and (max-width: 600px){
+
+            }
+            body
+            {
+                background-color: white;
+                align-content: center;
+                font-family: Arial;
+                margin:0;
+                animation-duration: 1.3s;
+                animation-name: slidein;
+
+            }
+            #encabezado
+            {
+                color: silver;
+                font-size: 40px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            }
+            #arriba{
+                background-image: URL("imagenes/tiposfelices.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%, 100%;
+
+            }
+            #primero
+            {
+                background-color: transparent;
+
+            }
+            #segundo
+            {
+                background-color: transparent;	
+
+            }
+            #tercero
+            {
+                background-image: URL("imagenes/compu.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%, 100%;
+                background-attachment: fixed;
+
+            }
+            #opaco{
+                background-color: black;
+                border: 1px solid black;
+                opacity: 0.6;
+                filter: alpha(opacity=60); 
+            }
+            #cuarto{
+                background-color: silver;
+
+            }
+            button 
+            {
+                border: none;
+                background: crimson;
+                color: #f2f2f2;
+                padding: 10px;
+                font-size: 18px;
+                border-radius: 5px;
+                position: relative;
+                box-sizing: border-box;
+                transition: all 500ms ease;
+            }
+            button:hover {
+                background: rgba(0,0,0,0);
+                color: crimson;
+                box-shadow: inset 0 0 0 3px crimson;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: whitesmoke;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a, .dropbtn {
+                display: inline-block;
+                color: crimson;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: crimson;
+                color: white;
+            }
+
+            li.dropdown {
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {background-color: #f1f1f1; color: crimson}
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+        </style>
+        <!-- Start WOWSlider.com HEAD section -->
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+        <script type="text/javascript" src="engine1/jquery.js"></script>
+        <!-- End WOWSlider.com HEAD section -->
+    </head>
+    <body>
+        <ul>
+            <li><a href="#home" style="background-color: crimson; color: white">Decidete.ipn</a></li>
+            <li class="dropdown" style="float: right;">
+              <a href="javascript:void(0)" class="dropbtn">Registrarse</a>
+              <div class="dropdown-content">
+                <a href="registroUsuarios.jsp">Aspirante</a>
+                <a href="egresados/registro.jsp">Egresado</a>
+              </div>
+            </li>
+            <li class="dropdown" style="float: right;">
+              <a href="javascript:void(0)" class="dropbtn">Iniciar Sesión</a>
+              <div class="dropdown-content" >
+                <a href="iniciarSesion.jsp">Aspirante</a>
+                <a href="egresados/iniciarSesion.jsp">Egresado</a>
+              </div>
+            </li>
+          </ul>
+        <div id="encabezado">
+            <div style="height: 300px; width: 546px; position: absolute; ">
+                <div style=" position: absolute; width: 70%; height: 100%; background-color: white; border-top-right-radius: 70%; border-bottom-right-radius: 80%; text-align: right; padding-right: 120px; box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
+                <div style=" position: absolute; width: 90%; height: 100%; background-color: crimson; border-top-right-radius: 96%; border-bottom-right-radius: 0%; text-align: right; padding-right: 120px; box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
+                <div style=" position: absolute; width: 50%; height: 100%; background-color: crimson; border-top-right-radius: 0%; border-bottom-right-radius: 100%; text-align: right; padding-right: 120px; box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
+                <div style=" position: absolute; width: 80%; height: 100%; background-color: white; border-top-right-radius: 100%; border-bottom-right-radius: 0%; text-align: right; padding-right: 120px; box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);"><p><br><br>DECIDETE<br>.IPN</p></div>
+                <div style=" position: absolute; width: 40%; height: 100%; background-color: crimson; border-top-right-radius: 96%; border-bottom-right-radius: 0%; box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);"><br><img src="imagenes/ipn.png"></div>
+            </div>
+            <div style="">
+                <div style=" width: 100%; height: 300px; background-color: white; background-image: URL('imagenes/tiposfelices.jpg');background-repeat: no-repeat; background-size: 100%, 100%; float: right; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
+            </div>
+        </div>
+        <div id="primero" style="margin-top: 270px;">
+            </br>
+            </br>
+            <br><br>
+            <center>
+                <table width="90%">
+                    <tr>
+                        <td width="688" height="241">
+                            <font color="crimson" size="+2">El sitio ideal para que tomes una gran desición</font></br></br>
+                            Decidete.ipn es una plataforma web donde los egresados de secundaria e interesados en ingresar al nivel medio superior en el ipn pueden conocer las ofertas educativas que este ofrece. El programa proporciona información relevante de cada uno de los CECyT como es su ubicación, demanda y las carreras que ofrece.
+                        </td>
+                        <td width="281">
+                            <img src="imagenes/bola.png" width="281" height="235">
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <br><br>
+        </div>
+        <div id="tercero">
+            <div id="opaco">
+                <br><br><br><font color="#FFFFFF" size="+4"><center>Dinos lo que te gusta y te ayudaremos a<br> encontrar un CECyT</center></font><br>
+                <font color="FFFFFF" size="+2"><center>Nuestra página posee un módulo de recomendaciones<br> para aquellos que no estén seguros de que opción elegir.</center></font><br><br><br>
+            </div>
+        </div>
+        <div id="segundo">
+            <br><br>
+            <font color="crimson" size="+3"><center>Todo lo que necesitas en un solo lugar</center></font><br>
+            <center>
+                <!-- Start WOWSlider.com BODY section -->
+                <div id="wowslider-container1">
+                    <div class="ws_images"><ul>
+                            <li><img src="data1/images/cuestionario.jpg" alt="Un cuestionario de aptitudes" title="Un cuestionario de aptitudes" id="wows1_0"/>Este mostrara las áreas y/o carreras más aptas para el interesado.</li>
+                            <li><a href="http://wowslider.net"><img src="data1/images/examenn.jpg" alt="jquery carousel" title="Una prueba tipo examen" id="wows1_1"/></a>Un examen para cuantificar el nivel de conocimiento del estudiante.</li>
+                            <li><img src="data1/images/necesidades.jpg" alt="Un cuestionario de necesidades" title="Un cuestionario de necesidades" id="wows1_2"/>Un cuestionario para saber cuáles son las características que el alumno busca en una escuela y estar al tanto de sus prioridades.</li>
+                        </ul></div>
+                    <div class="ws_bullets"><div>
+                            <a href="#" title="Un cuestionario de aptitudes"><span><img src="data1/tooltips/cuestionario.jpg" alt="Un cuestionario de aptitudes"/>1</span></a>
+                            <a href="#" title="Una prueba tipo examen"><span><img src="data1/tooltips/examenn.jpg" alt="Una prueba tipo examen"/>2</span></a>
+                            <a href="#" title="Un cuestionario de necesidades"><span><img src="data1/tooltips/necesidades.jpg" alt="Un cuestionario de necesidades"/>3</span></a>
+                        </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7.1m</div>
+                    <div class="ws_shadow"></div>
+                </div>	
+                <script type="text/javascript" src="engine1/wowslider.js"></script>
+                <script type="text/javascript" src="engine1/script.js"></script>
+                <!-- End WOWSlider.com BODY section -->
+            </center>
+            <br>
+            <br>
+        </div>
+        <div id="cuarto">
+            <br><br>
+            <center>
+                <table width="90%">
+                    <tr>
+                        <td width="49%" >
+                    <center><h3>¿Ya tienes una cuenta? ¡Inicia sesión!</h3>
+                        <a href="iniciarSesion.jsp"><button>Iniciar Sesión</button></center></a>
+                    </td>
+                    <td width="50%">
+                    <center><h3>¿Aún no formas parte de nosotros?</h3>
+                        <a href="registroUsuarios.jsp"><button>Regístrate</button></center></a>
+                    </td>
+                    </tr>
+                </table>
+                <br><br>
+                <table width="100%" bgcolor="#000000">
+                    <tr>
+                        <td width="51">
+                    <center><img src="imagenes/Icono.png" width="51" height="44" align="left"/></center>
+                    </td>
+                    <td>
+                        <font face="Arial" color="#5C5C5C" size="-1"><span onclick="zelda();">P</span>rototipos<br /></font>
+                    </td>
+                    </tr>
+                </table>
+            </center>
+        </div>
+        <script>
+            function zelda(){
+                window.location="http://localhost:8080/decideteIPN/administrador/iniciar.jsp";
+            }
+        </script>
+    </body>
+</html>
+
